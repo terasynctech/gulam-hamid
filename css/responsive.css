@@ -1,0 +1,132 @@
+/* ==========================
+   Large Devices
+========================== */
+
+@media (max-width:1200px){
+
+.hero-title{
+    font-size:60px;
+}
+
+.hero-image img{
+    width:360px;
+}
+
+}
+
+/* ==========================
+   Tablets
+========================== */
+
+@media (max-width:992px){
+
+section{
+    padding:80px 0;
+}
+
+.navbar{
+    background:#0F172A;
+}
+
+.hero-title{
+    font-size:52px;
+}
+
+.hero-designation{
+    font-size:26px;
+}
+
+.hero-company{
+    font-size:22px;
+}
+
+.hero-description{
+    font-size:17px;
+}
+
+.hero-highlights{
+    justify-content:center;
+}
+
+.hero-image{
+    margin-top:60px;
+}
+
+.hero-image img{
+    width:320px;
+}
+
+.scroll-down{
+    display:none;
+}
+
+}
+
+/* ==========================
+   Mobile
+========================== */
+
+@media (max-width:768px){
+
+.hero-title{
+    font-size:42px;
+}
+
+.hero-designation{
+    font-size:22px;
+}
+
+.hero-company{
+    font-size:20px;
+}
+
+.hero-description{
+    font-size:16px;
+}
+
+.highlight-card{
+    width:100%;
+}
+
+.hero-social{
+    justify-content:center;
+}
+
+.hero-image img{
+    width:280px;
+}
+
+.brand-text{
+    font-size:18px;
+}
+
+.logo{
+    height:40px;
+}
+
+}
+
+/* ==========================
+   Small Mobile
+========================== */
+
+@media (max-width:480px){
+
+.hero-title{
+    font-size:34px;
+}
+
+.hero-tag{
+    font-size:13px;
+}
+
+.hero-description{
+    line-height:1.7;
+}
+
+.hero-social a{
+    width:48px;
+    height:48px;
+}
+
+}
